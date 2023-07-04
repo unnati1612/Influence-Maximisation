@@ -1,0 +1,18 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block title%}
+Influence Maximsation
+{%endblock title%}
+
+  {%block body%}
+  
+  <div><center><h1  id="header">About Independent Cascade Model</h1></center> </div>
+
+  <div class="thresh" style="font-size:1.2rem">
+    The Independent Cascade Model is another commonly used spread model in network analysis. In this model, each node has a probability of activating its neighboring nodes, and this process is repeated until no more nodes can be activated. The activation process is independent of the state of other nodes and occurs only if the probability threshold is met. The network is represented by a graph G(V, E), where V is the set of nodes, and E is the set of edges connecting the nodes. Each node in the network is in one of two states: activated or inactive. The activation process begins with a set of initially activated nodes, and from there, the process continues in discrete time steps until no more nodes can be activated.The activation process in the Independent Cascade Model follows a probabilistic rule. Each edge in the network is assigned a weight or probability that determines the likelihood of activating its endpoint nodes. The activation probability is typically modeled as a Bernoulli distribution, where the probability of an edge activating its endpoint nodes is a random variable with a certain probability of success.The Independent Cascade Model is often used to model the spread of information or disease in a network. 
+    At each time step, the algorithm activates any inactive node whose incoming activated neighbors have collectively exceeded the activation threshold. Once a node is activated, it remains active for the rest of the process, and its activation may influence the activation of its neighbors.
+    <br> <br>
+In the ICM, each node in the network has a probability value between 0 and 1  <br><br>
+
+  </div>
+  {%endblock body%}

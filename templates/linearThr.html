@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block title%}
+Influence Maximsation
+{%endblock title%}
+
+  {%block body%}
+  
+  <div><center><h1  id="header">About Linear Threshold Model</h1></center> </div>
+
+  <div class="thresh" style="font-size:1.2rem">
+    The Linear Threshold Model (LTM) is a popular influence maximization model used in social network analysis.
+    The LTM model starts by assigning a threshold value to each node in the network. Then, the influence or behavior is propagated through the network in a stepwise fashion. At each step, the model checks whether each node's threshold value has been met by the number of influenced neighbors. If a node's threshold has been met, the node becomes influenced and can in turn influence its neighbors in the next step.   
+    The process continues until no further nodes can be influenced, or until the model reaches a predefined stopping criterion.
+   <br> <br>
+In the LTM, each node in the network has a threshold value between 0 and 1 that represents the level of influence required from its neighbors to activate the node. When the sum of the weights of the active neighbors of a node exceeds its threshold value, the node becomes active and can influence its inactive neighbors.  <br><br>
+
+
+The performance of these algorithms depends on the accuracy of the LTM in capturing the dynamics of influence propagation in the network. Several extensions to the LTM have been proposed, such as the weighted linear threshold model (WLTM), which allows nodes to have different degrees of influence on their neighbors, and the cascade model, which takes into account the temporal dynamics of influence propagation.
+  </div>
+  {%endblock body%}

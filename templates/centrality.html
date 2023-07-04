@@ -1,0 +1,88 @@
+{%extends 'base.html'%}
+{% load static %}
+{%block title%}
+Documentation - CENTRALITY
+{%endblock title%}
+
+
+{%block body%}
+
+<div><center><h1  id="header">About Centrality</h1></center> </div>
+<div class="centralityy">
+  <p style="width:80vw;margin-left:10vw;font-size:1.2rem">
+    Centrality is a concept in network analysis that refers to the importance or influence of nodes within a network. It is a measure of how much a node is central or critical to the network structure, and it can provide insight into the flow of information, resources, and power within the network.   Centrality measures can be used to identify key players or influential nodes within a network. For example, in a social network, a node with a high degree centrality may be a popular individual with many friends, while a node with a high betweenness centrality may be a mediator who connects different groups of people. Centrality measures can also be used to compare different networks and identify similarities or differences in their structure. By analyzing the centrality measures of different networks, researchers can gain insights into how networks evolve over time and how they respond to changes in their environment. <br></p>
+
+     <b style="color: #7d341f;"> There are several types of centrality measures such as: </b> </p>
+     <div class="accordion accordion-flush" id="accordionExample" >
+      <div class="accordion-item ">
+        <h2 class="accordion-header ">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h4> <b> Degree Centrality </b> </h4>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body"> •	Degree centrality: This measures the number of edges connected to a node. Nodes with a high degree of centrality are well-connected to other nodes in the network.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h4> <b>Closeness Centrality </b> </h4>   
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            •	Closeness centrality: This measures how close a node is to all other nodes in the network. Nodes with high closeness centrality can quickly spread information or influence to other nodes in the network.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h4> <b>Betweeness Centrality </b> </h4>   
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            •	Betweenness centrality: This measures the extent to which a node lies on the shortest path between other nodes in the network. Nodes with high betweenness centrality are critical for maintaining the network's overall connectivity.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+              <h4> <b>Eigen Vector Centrality </b> </h4>  
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              •	Eigenvector centrality: This measures a node's importance based on the importance of its neighbors. Nodes with high eigenvector centrality are connected to other highly important nodes in the network.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+              <h4> <b> Page Rank Centrality </b> </h4> 
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              •	PageRank centrality: This measures a node's importance based on the number and quality of links pointing to it. Nodes with high PageRank centrality are considered highly influential in the network.
+            </div>
+          </div>
+        </div>
+    </div>
+  <br><br>
+  <p>
+    <div><center><h1  id="header">Application</h1></center> </div>
+    <h3 style="color: #7d341f; margin-top:18px;"> INFLUENCE MAXIMISATION IN SOCIAL NETWORKS   <br> </h3>
+ <p style="width:80vw;margin-left:10vw;font-size:1.2rem">
+  Influence maximization is the process of identifying a small set of nodes in a social network that can have the most significant impact in terms of spreading information or influencing other nodes in the network. This concept has become increasingly important in the era of social media, where the ability to reach and influence a large audience can have significant consequences for individuals and organizations. -The goal of influence maximization is to identify a set of nodes in a network that can maximize the spread of information or influence within the network. This can be achieved through a variety of techniques, including network analysis, machine learning algorithms, and social network simulations. -One common approach to influence maximization is to use network centrality measures to identify the most important nodes in the network.Social network simulations can also be used to identify influential nodes by simulating the spread of information or influence within the network. By running multiple simulations and varying the starting points, it is possible to identify the nodes that consistently impact the spread of information or influence.
+ </p>  
+</p>
+</div>
+
+    
+    {%endblock body%}

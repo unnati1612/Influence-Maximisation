@@ -1,0 +1,135 @@
+
+  .subbox{
+    box-shadow: 2px 2px 2px grey;
+  }
+
+  #bigbox{     
+      display:flex;    
+          margin: 20px;
+    height:74vh;
+     }
+
+  #acc{
+    margin:1vh 1vw;
+      width:50vw !important;
+        display:inline-block;
+      box-shadow: rgb(50, 27, 17) 0px 6px 15px, rgb(50, 27, 17) 0px 7px 8px;
+  }
+    #rightdiv{
+    margin:1vh 1vw;
+    width:60vw !important;
+    display:inline-block ;
+ box-shadow: rgb(50, 27, 17) 0px 6px 15px, rgb(50, 27, 17) 0px 7px 8px;
+    }
+  
+    #fileinput{
+        margin:10vw 2vw 2vw 2vw;
+       
+    }
+   .btn , input::file-selector-button{
+    background-color: rgb(133, 46, 24);
+    color: #ffffff;
+    font-size:1.5rem
+   }
+
+    #centralitydd{
+        margin-left:10vw;
+        width:10vw;
+        display:inline;
+        font-size:2rem !important;
+    }
+    #modeldd{
+        margin-left:5vw;
+        width:10vw;
+        display:inline;
+        font-size:2rem !important;
+    }
+  .btn:hover{
+            background-color: rgb(133, 46, 24);
+      font-size:25px !important;
+        }
+
+    #header{
+      width: 54vw;
+      margin-top: 4.2vh;
+      box-shadow: 5px 5px 5px 2px rgb(59, 33, 22);
+      font-family: cursive;
+      animation: bounce 3s;
+      color: #823415;
+      background-color: #ffffff;
+    }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+            40% {transform: translateY(-30px);} 
+            60% {transform: translateY(-15px);} 
+         } 
+    
+  .navbar{
+    background-color: #823415;
+    height: 10vh;
+   }
+  .navbar a{
+    font-size: larger;
+    color: #ffffff;
+  }
+  .navbar a:hover{
+  font-size: larger;
+  color: white;
+  }
+  .navbar-brand{
+    padding: 0vh 2vw;
+  }
+  .accordion{
+    width: 70vw;
+    margin-left: 15vw;
+    left: 50px;
+    border: 2px solid black;
+  }
+  
+  .accordion-button
+  {
+    background-color:#a74924  !important;
+  }
+
+.accordion h4{
+  color: white;
+}
+
+  .centralityy{
+    text-align: center;
+margin: 5px;
+
+  }
+
+  
+  .thresh{
+    margin:9vh 10vw;
+    padding:0vh 4vw; 
+    width:84vw; 
+    color: #461401;
+    text-align: center;
+
+    border-left: 6px dotted #a74924 ; 
+    border-right: 6px dotted #a74924 ;
+  }
+
+  .headd{
+    color: #611c00;
+  }
+
+  .outp{
+    margin: 20px;
+    width: 90%;
+    color:#862f0d ;
+  }
+
+  .inpp{
+    margin: 0vh 1vw;
+    color:#932a00 ;
+    padding-top: 10px;
+    font-size:1.4rem
+  }
+
+  .inputbox{
+    margin: 40px;
+      }
